@@ -1,0 +1,11 @@
+ServerAliveInterval 600
+ServerAliveCountMax 5
+IdentityFile /home/builder/.ssh/id_rsa
+Compression yes
+ControlMaster auto
+
+Host gitlab
+HostName gitlab.hcn-inc.com
+User git
+Port 49152
+
